@@ -1,62 +1,79 @@
-!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
-<meta charset='utf-8'>
-<meta http-equiv='X-UA-Compatible' content='IE=edge'>
-<title>Alura</title>
-<meta name='viewport' content='width=device-width, initial-scale=1'>
-<link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-<link rel="preconnect" href="https://fonts.googleapis.com"&gt;
-<link rel="preconnect" href="https://fonts.gstatic.com&quot; crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap&quot; rel="stylesheet">
-
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>A ligação entre o campo e a cidade</title>
+<link rel="stylesheet" href="style.css">
+<style>
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f0f8ff;
+color: #333;
+}
+header {
+background-color: #4CAF50;
+padding: 20px;
+text-align: center;
+color: white;
+}
+h1 {
+margin: 0;
+}
+section {
+padding: 20px;
+max-width: 800px;
+margin: auto;
+}
+h2 {
+color: #4CAF50;
+}
+p {
+line-height: 1.6;
+}
+.images {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+}
+.images img {
+max-width: 45%;
+height: auto;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+footer {
+background-color: #333;
+color: white;
+text-align: center;
+padding: 15px;
+margin-top: 40px;
+}
+@media(max-width: 600px) {
+.images img {
+max-width: 100%;
+}
+}
+</style>
 </head>
 <body>
-<section class="container principal">
-<div class="container__caixa">
-<h1>Este é o pé de soja na forma inicial após o plantio, é a primera fase para um bom começo</h1>
-<img src="img/Agro.png" alt="Soja" class="container__imagem">
-
-</div>
-</section>
-<section class="container secundario">
-<img src="img/images (1).jpg" alt="trigo" class="secundario__imagem">
-<div class="container__descricao">
-<h2 class="descricao__titulo">Essa é a segunda fase que o agricultor enfrenta</h2>
-<p class="descricao__texto">O uso de defencivos agricolas nas lavouras, é essencial para uma boa produção</p>
-</div>
-</section>
-<section class="container secundario">
-<div class="container__descricao">
-<p class="descricao__texto">
-Aqui está a penultima etapa do soja, a colheita.
-
-
-A baixo está o soja na sua útima fase, o produto após a industrialização.
+<header>
+<h1>A ligação entre o campo e a cidade</h1>
+</header>
+<section>
+<h2>Introdução</h2>
+<p>
+A relação entre o campo e a cidade é fundamental para entender como as áreas rurais e urbanas se complementam. Enquanto o campo representa a vida rural, a cidade simboliza o desenvolvimento urbano e a modernidade. Ambos têm um papel importante na economia, cultura e na qualidade de vida das pessoas.
 </p>
+</section>
+<section>
+<h2>Importância do campo</h2>
+<p>
+O campo é responsável pela produção de alimentos, fibras e recursos naturais. Ele mantém a biodiversidade e preserva tradições culturais. Além disso, muitas pessoas buscam no campo um estilo de vida mais tranquilo e conectado à natureza.
+</p>
+<div class="images">
+<img src="https://pt.quizur.com/_image?href=https%3A%2F%2Fimg.quizur.com%2Ff%2Fimg5e7a9864b95de8.22480695.jpg%3FlastEdited%3D1585092737&w=600&h=600&f=webp"/&gt;
 </div>
-<img src="img/628360-7891999011039-margarina vigor tradicional c sal 500g-vigor-1.png" alt="mandioca" class="secundario__imagem">
-</section>
-<section class="dispositivos">
-<h2 class="dispositivos__titulo">.</h2>
-<ul class="dispositivos__lista">
-<li>
-<img src="img/178215-800-450.png" alt="oleo de soja" class="img-lista">
-<h3 class="lista__item">Óleo de soja</h3>
-</li>
-<li>
-<img src="img/628360-7891999011039-margarina vigor tradicional c sal 500g-vigor-1.png" alt="margarina" class="mar-lista">
-<h3 class="lista__item">Margrina</h3>
-</li>
-<li>
-<img src="img/racao_golden_selecao_natural_para_caes_filhotes_de_todas_as_racoes_sabor_frango_eamp_arroz_10_1kg_2759_1_061c1a45798270d4702edf613e983959.png" alt="farelo">
-<h3 class="lista__item">Rações</h3>
-</li>
-</ul>
-</section>
-<footer class="rodape">
-<p class="rodape__texto">Vitor de Souza</p>
-<p class="rodape__texto">Do campo a cidade colhendo oportunidades</p>
-</footer>
-</body>
-</html>
